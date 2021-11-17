@@ -7,7 +7,7 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "ts-node-dev ./src/index.ts"
+    "start": "ts-node-dev --files ./src/index.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",

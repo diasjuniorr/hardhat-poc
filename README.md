@@ -16,7 +16,7 @@ Now open another terminal and run the following command to deploy the contract:
 ```bash
 npx hardhat run scripts/deploy-people-storage.ts --network localhost
 ```
-Get the address of the contract and use it as the second argument of ethers.getContractAt(name, _**ADDRESS**_, signer).
+Get the address of the contract and use it as the second argument of `ethers.getContractAt(name, _**ADDRESS**_, signer)`.
 Now run the API and try to add people to the contract.
 ## Starting the API
 ```bash
